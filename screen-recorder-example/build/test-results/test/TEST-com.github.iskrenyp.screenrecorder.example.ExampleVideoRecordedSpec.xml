@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.iskrenyp.screenrecorder.example.ExampleVideoRecordedSpec" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-02T16:33:41" hostname="ipenchev-ThinkPad-E590" time="10.172">
+  <properties/>
+  <testcase name="Github home page loads" classname="com.github.iskrenyp.screenrecorder.example.ExampleVideoRecordedSpec" time="5.412"/>
+  <testcase name="The Spock Goodies repo exists on Github" classname="com.github.iskrenyp.screenrecorder.example.ExampleVideoRecordedSpec" time="4.759"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/ipenchev/.m2/repository/webdriver/chromedriver/linux64/79.0.3945.36/chromedriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9763
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 02, 2020 6:33:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.github.iskrenyp.spockscreenrecorder.api.SpockScreenRecorderServiceImpl - Starting configuration for screen recorder with following properties: [graphicsConfiguration:X11GraphicsConfig[dev=X11GraphicsDevice[screen=0],vis=0x46], captureArea:java.awt.Rectangle[x=0,y=0,width=1920,height=1080], fileFormat:Format{mimeType:video/avi,mediaType:FILE}, screenFormat:Format{encoding:tscc,frameRate:15,keyFrameInterval:900,quality:1.0,mediaType:VIDEO,dimZ:24,compressorName:tscc}, mouseFormat:Format{encoding:black,frameRate:30,mediaType:VIDEO}, audioFormat:null, pathToMovieFolder:build/video]
+[Test worker] INFO com.github.iskrenyp.spockscreenrecorder.api.SpockScreenRecorderServiceImpl - Starting video recording...
+[Test worker] INFO com.github.iskrenyp.spockscreenrecorder.api.SpockScreenRecorderServiceImpl - Stopping video recording
+]]></system-err>
+</testsuite>
