@@ -9,14 +9,14 @@ import org.openqa.selenium.Keys
 @MakeVideo('myCustomRecorder')
 class ExampleCustomVideoRecorderSpec extends GebSpec {
 
-    def "Github home page loads_" () {
+    def "Github home page loads" () {
         when:
         go 'https://github.com'
         then:
         $("input[name='q']").displayed
     }
 
-    def "The Spock Goodies repo exists on Github__" () {
+    def "The Spock Goodies repo exists on Github" () {
         when:
         go 'https://github.com'
         and:
