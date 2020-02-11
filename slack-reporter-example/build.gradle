@@ -1,0 +1,23 @@
+plugins {
+    id 'groovy'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.codehaus.groovy:groovy-all:2.5.7'
+    testImplementation 'org.spockframework:spock-core:1.3-groovy-2.5'
+
+
+    //Use this declaration if you don't want to use the spock screen recorder dependencies
+    // It avoids affecting your version of Groovy/Spock
+    testImplementation('com.github.iskrenyp:spock-slack-reporter:1.0+') {
+        exclude group: 'org.codehaus.groovy'
+        exclude group: 'org.spockframework'
+    }
+}

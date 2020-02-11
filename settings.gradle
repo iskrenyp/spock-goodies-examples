@@ -1,4 +1,4 @@
 rootProject.name = 'spock-goodies-examples'
 
-include 'screen-recorder-example'
+include 'screen-recorder-example', 'slack-reporter-example'
 
