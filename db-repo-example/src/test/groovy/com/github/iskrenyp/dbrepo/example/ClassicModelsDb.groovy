@@ -8,6 +8,6 @@ import groovy.transform.InheritConstructors
 class ClassicModelsDb extends SqlDataStore{
 
     List<IValidatableEntity> run(ClassicModelsSelect validation) {
-        select(validation.statement, validation.executor)
+        select(validation.statement, validation.mapper)
     }
 }
