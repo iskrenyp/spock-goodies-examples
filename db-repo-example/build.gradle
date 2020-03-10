@@ -12,5 +12,6 @@ repositories {
 dependencies {
     testImplementation 'org.codehaus.groovy:groovy-all:2.5.7'
     testImplementation 'org.spockframework:spock-core:1.3-groovy-2.5'
-    testImplementation 'com.github.iskrenyp:spock-slack-reporter:1.0.+'
+    testImplementation 'mysql:mysql-connector-java:5.1.39'
+    testImplementation 'com.github.iskrenyp:spock-db-repo:1.0.+'
 }
